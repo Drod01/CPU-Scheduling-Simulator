@@ -1,0 +1,16 @@
+turnaround = 80.000000 ms
+turnaround = 130.000000 ms
+turnaround = 200.000000 ms 
+turnaround = 270.000000 ms
+turnaround = 340.000000 ms
+turnaround = 410.000000 ms
+turnaround = 510.000000 ms
+cpu time test 190
+totalexec test 940.000000000
+test bursts: 14
+test wait: 400.000000000
+CPU Scheduling Alg           : FIFO
+CPU utilization               : 20.212765957%  
+Throughput                    : 0.0148936170 processes / ms
+Avg. Turnaround time          : 67.142857143ms
+Avg. Waiting time in R queue  : 28.571428571ms
