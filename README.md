@@ -21,30 +21,37 @@ Use the following command to compile the program:
 
 ```bash
 gcc -pthread CPU-Scheduling_2.c -o cpu_scheduling
+```
 
-Running the Simulation
+### Running the Simulation
 
 Execute the compiled program with the desired scheduling algorithm and the input file:
 
+```bash 
 ./cpu_scheduling -alg <Algorithm> -input <InputFile>
+```
+
 Replace <Algorithm> with FIFO, SJF, PR, or RR and <InputFile> with the path to your input file.
 
-Input File Format
+### Input File Format
+
 The input file should contain process instructions in the following format:
+```php
 proc <PID> <Priority> <CPU Burst 1> <IO Burst 1> ... <CPU Burst N> <IO Burst N>
 sleep <Time in ms>
 stop
+```
 
-Output
+### Output
 The simulator outputs various metrics like:
 
-CPU Utilization
-Throughput
-Average Turnaround Time
-Average Waiting Time in Ready Queue
+- CPU Utilization
+- Throughput
+- Average Turnaround Time
+- Average Waiting Time in Ready Queue
 
-License
-This project is open source and available for educational and learning purposes. Feel free to explore, modify, and contribute to it as you delve deeper into the concepts of CPU scheduling.
+### License
+This project is open-source and available for educational and learning purposes. Feel free to explore, modify, and contribute to it as you delve deeper into the concepts of CPU scheduling.
 
 
 This README provides a structured and detailed guide for understanding, compiling, and running the CPU Scheduling Simulator, making it accessible to both novices and experienced users interested in operating systems and CPU scheduling algorithms.
